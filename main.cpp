@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstring>
-#include <cmath>
 using namespace std;
 
 int main(int argc, char *argv[])
@@ -11,8 +10,6 @@ int main(int argc, char *argv[])
   }
 
   int length = atoi(argv[2]);
-  cerr << "Generating " << pow(strlen(argv[1]), length) << endl;
-  return 0;
 
   int *pos = new int[length];
   for (int i = 0; i < length; i++) {
